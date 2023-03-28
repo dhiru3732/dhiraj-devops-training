@@ -196,7 +196,7 @@ For ($hour=36; $hour -gt 0; $hour--) {
 
 echo "MFA token credentials have expired. Please restart this script."
 
-# Check if we're running in
+# Check if we're running in Test
 if ($host.name -notmatch 'ISE')
 {
     echo "`nPress any key to close this window..."
